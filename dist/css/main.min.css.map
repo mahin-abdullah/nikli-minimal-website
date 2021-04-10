@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../scss/main.scss",
+        "../../scss/_header.scss",
+        "../../scss/_hero.scss",
+        "../../scss/_articles.scss",
+        "../../scss/_about.scss",
+        "../../scss/_newsletter.scss",
+        "../../scss/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
