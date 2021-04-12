@@ -1,7 +1,21 @@
 // Imported Fonts //
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap");
 
 // Fonts //
-$font-primary: "Josefin Sans", sans-serif;
+$font: "Josefin Sans", sans-serif;
 
 // Font Sizes //
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: $dark;
+}
+
+h1 {
+  font-size: 35px;
+}

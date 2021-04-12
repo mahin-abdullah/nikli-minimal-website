@@ -1,0 +1,24 @@
+.hero {
+  padding: 11em 0;
+
+  &__title {
+    padding: 3.8em;
+    text-align: center;
+    text-transform: uppercase;
+
+    & p {
+      margin: 8px 0 0 0;
+      font-weight: 600;
+    }
+
+    & p:after {
+      content: "";
+      height: 6px;
+      display: block;
+      width: 13%;
+
+      background-color: #5f625e;
+      margin: 15px auto;
+    }
+  }
+}

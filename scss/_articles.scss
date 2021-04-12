@@ -1,0 +1,21 @@
+.articles {
+  margin: 4.3em 0 0 0;
+  padding: 5em 0 0 0;
+  background: $green;
+
+  & h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  & h4:after {
+    content: "";
+    height: 4px;
+    display: block;
+    width: 19%;
+    background-color: #5f625e;
+    margin: 15px auto 40px auto;
+  }
+}
