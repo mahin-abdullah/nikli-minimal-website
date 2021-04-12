@@ -42,10 +42,12 @@ header {
 
   &.is-active:before {
     transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: #ffffff;
   }
 
   &.is-active:after {
     transform: rotate(45deg) translate(0px, 3px);
+    background-color: #ffffff;
   }
 
   &.is-active .bar {
@@ -63,7 +65,8 @@ header {
   min-height: 100vh;
   z-index: 2;
   padding: 6em 0 0 0;
-  background-color: $almond;
+
+  background-color: #000;
   transition: 400ms;
 
   & li {
@@ -75,7 +78,7 @@ header {
     display: block;
     text-align: center;
     margin-bottom: 1em;
-    color: $dark;
+    color: white;
     text-transform: uppercase;
     transition: 400ms;
   }
