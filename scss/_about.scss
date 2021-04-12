@@ -1,0 +1,20 @@
+.about__section {
+  & h4 {
+    padding: 2em 0 0 0;
+  }
+
+  & h4:after {
+    content: "";
+    height: 4px;
+    display: block;
+    width: 13%;
+    background-color: #5f625e;
+    margin: 20px auto 40px auto;
+  }
+
+  & .about__description p {
+    width: 90%;
+    margin: 0 auto 4em auto;
+    line-height: 2;
+  }
+}
