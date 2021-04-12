@@ -1,0 +1,36 @@
+footer {
+  padding: 4em 0;
+
+  .footer__list li {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 25px 0;
+  }
+
+  .footer__list a {
+    text-decoration: none;
+    color: $dark;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 350ms;
+  }
+
+  .footer__list a:hover {
+    letter-spacing: 2px;
+  }
+
+  .social__links {
+    text-align: center;
+
+    .fa-lg {
+      width: 2.3em;
+      font-size: 1.66em;
+      color: $dark;
+      transition: 250ms;
+    }
+    .fa-lg:hover {
+      color: #5b8153;
+    }
+  }
+}
