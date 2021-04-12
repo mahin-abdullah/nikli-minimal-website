@@ -1,0 +1,48 @@
+.newsletter__section {
+  background: $green;
+  padding: 5em 0;
+
+  .form p {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  .cta {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+
+    &__email,
+    &__btn {
+      font-family: $font;
+      font-weight: 700;
+    }
+
+    &__email {
+      background: #f1f3f0;
+      padding: 1em 0 1em 8px;
+      margin: 0 0 18px 0;
+      font-family: $font;
+      font-size: 16px;
+      font-weight: 700;
+      border: 5px solid $white;
+    }
+
+    &__btn {
+      padding: 0.8em 0;
+      border: 3px solid $dark;
+      background: transparent;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: $dark;
+      transition: 350ms;
+    }
+
+    &__btn:hover {
+      letter-spacing: 2px;
+    }
+  }
+}
