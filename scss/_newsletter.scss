@@ -47,5 +47,20 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
+  .newsletter__section {
+    padding: 8em 0;
+  }
+  .cta {
+    padding: 2em 0;
+    align-items: center;
+
+    &__email {
+      width: 45%;
+    }
+
+    &__btn {
+      width: 25%;
+    }
+  }
 }
