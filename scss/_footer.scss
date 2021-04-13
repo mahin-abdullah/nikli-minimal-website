@@ -1,5 +1,6 @@
 footer {
   padding: 4em 0;
+  margin: 25px 0 0 0;
 
   .footer__list li {
     list-style: none;
@@ -31,6 +32,21 @@ footer {
     }
     .fa-lg:hover {
       color: #5b8153;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    display: flex;
+    padding: 3em 0;
+    justify-content: space-around;
+
+    .footer__list {
+      display: flex;
+      width: 500px;
+      order: 2;
+      justify-content: space-around;
     }
   }
 }
