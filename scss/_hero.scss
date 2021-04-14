@@ -1,5 +1,5 @@
 .hero {
-  padding: 11em 0;
+  padding: 10.9em 0;
 
   &__title {
     padding: 3.8em;
@@ -19,6 +19,39 @@
 
       background-color: #5f625e;
       margin: 15px auto;
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .hero {
+    padding: 9.7em 0;
+
+    &__title {
+      position: relative;
+      top: -7em;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .hero__title {
+    & h1 {
+      font-size: 64px;
+    }
+
+    & p {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .hero__title {
+    top: 0;
+
+    & p:after {
+      width: 9%;
     }
   }
 }
