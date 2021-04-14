@@ -23,14 +23,13 @@
     filter: drop-shadow(1px 9px 15px #70767e);
 
     &__desc {
-      margin: -0.2em 0 0 0;
-
       padding: 3em 15px;
       background: $white;
       font-size: 22px;
       text-align: center;
       font-weight: 700;
       line-height: 1.5;
+      margin: -0.2em 0 0 0;
     }
 
     &__desc:before {
@@ -40,6 +39,26 @@
       width: 12%;
       background-color: #5f625e;
       margin: 15px auto 40px auto;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .articles {
+    padding: 11em 0;
+
+    & h4:after {
+      width: 4%;
+    }
+
+    .card__section {
+      display: flex;
+      justify-content: space-around;
+
+      .card {
+        width: 30%;
+        cursor: pointer;
+      }
     }
   }
 }
